@@ -1,7 +1,5 @@
-mod macros;
-mod console;
-mod sum;
+mod sessao_1;
 
 fn main() {
-	console::run()
+	sessao_1::console::run();
 }
