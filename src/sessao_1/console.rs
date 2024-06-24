@@ -26,4 +26,3 @@ pub fn run() {
 
 	println!("total: {}", s);
 }
-

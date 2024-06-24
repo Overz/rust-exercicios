@@ -1,7 +1,7 @@
 #[macro_export]
 macro_rules! parse_to_i32 {
 	($v:expr) => {
-		if let Ok(val) = $v.trim().parse::<i32>() { val as i32 }
+		if let Ok(val) = $v.trim().parse::<i32>() { val }
 		else { eprintln!("Erro ao converter '{}' para i32", $v); 0 }
 	};
 }
